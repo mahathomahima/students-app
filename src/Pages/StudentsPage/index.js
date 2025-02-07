@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { database } from "../../firebase";
 import { collection, getDocs, addDoc, deleteDoc, doc } from "firebase/firestore";
+import './index.css'
 
 const StudentsPage = () => {
     const [students, setStudents] = useState([]);
